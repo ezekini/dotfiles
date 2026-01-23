@@ -36,4 +36,3 @@ alias code="unset VSCODE_IPC_HOOK_CLI; code"
 alias ls="eza -1 -l --icons --hyperlink" # Alias para eza 1 liner and longC 
 #alias lc='colorls -lA --sd'
 export EDITOR="micro"
-terminal display

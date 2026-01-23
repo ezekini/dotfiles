@@ -1,0 +1,85 @@
+{
+  "profiles" : [
+    {
+      "id" : "B60F5231-AD06-4B3A-8F9B-3B1B9CEA88B0",
+      "name" : "Default",
+      "workspaces" : [
+        {
+          "appToFocus" : {
+            "bundleIdentifier" : "com.tidal.desktop",
+            "iconPath" : "/Applications/TIDAL.app/Contents/Resources/icon.icns",
+            "name" : "TIDAL"
+          },
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.tidal.desktop",
+              "iconPath" : "/Applications/TIDAL.app/Contents/Resources/icon.icns",
+              "name" : "TIDAL"
+            }
+          ],
+          "display" : "LG HDR WQHD",
+          "id" : "D4AF0111-8CCA-4832-8255-7F0CCCF01456",
+          "name" : "Tidal",
+          "openAppsOnActivation" : false,
+          "shortcut" : "opt+1",
+          "symbolIconName" : "music.note"
+        },
+        {
+          "appToFocus" : {
+            "bundleIdentifier" : "company.thebrowser.Browser",
+            "iconPath" : "/Applications/Arc.app/Contents/Resources/AppIcon.icns",
+            "name" : "Arc"
+          },
+          "apps" : [
+            {
+              "bundleIdentifier" : "company.thebrowser.Browser",
+              "iconPath" : "/Applications/Arc.app/Contents/Resources/AppIcon.icns",
+              "name" : "Arc"
+            }
+          ],
+          "display" : "LG HDR WQHD",
+          "id" : "3F9C4430-4C77-4139-A7E5-73328682A1D1",
+          "name" : "Main",
+          "openAppsOnActivation" : false,
+          "shortcut" : "opt+2",
+          "symbolIconName" : "house"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.microsoft.VSCode",
+              "iconPath" : "/Applications/Visual Studio Code.app/Contents/Resources/Code.icns",
+              "name" : "Code"
+            }
+          ],
+          "display" : "LG HDR WQHD",
+          "id" : "2AD5FD25-7404-4987-BBBE-37E2007B6230",
+          "name" : "Code",
+          "openAppsOnActivation" : false,
+          "shortcut" : "opt+3",
+          "symbolIconName" : "apple.terminal"
+        },
+        {
+          "appToFocus" : {
+            "bundleIdentifier" : "com.tinyspeck.slackmacgap",
+            "iconPath" : "/Applications/Slack.app/Contents/Resources/electron.icns",
+            "name" : "Slack"
+          },
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.tinyspeck.slackmacgap",
+              "iconPath" : "/Applications/Slack.app/Contents/Resources/electron.icns",
+              "name" : "Slack"
+            }
+          ],
+          "display" : "LG HDR WQHD",
+          "id" : "BD0D6235-C66D-48AF-8A24-69B266A4F2F6",
+          "name" : "Slack",
+          "openAppsOnActivation" : false,
+          "shortcut" : "opt+4",
+          "symbolIconName" : "message.badge.waveform"
+        }
+      ]
+    }
+  ]
+}
