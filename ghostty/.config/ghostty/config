@@ -55,7 +55,7 @@ background-opacity = 0.99
 clipboard-read = allow
 clipboard-write = allow
 confirm-close-surface = false
-font-family = "Fira Code"
+font-family = "Fira Code"                            
 font-size=14
 font-feature=-liga
 font-thicken=true
@@ -66,3 +66,7 @@ window-decoration = true
 window-theme = dark
 window-height=30
 window-width=110
+
+macos-option-as-alt = left
+keybind = opt+right=unbind
+keybind = opt+left=unbind
