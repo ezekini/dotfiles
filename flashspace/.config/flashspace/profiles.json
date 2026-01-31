@@ -5,12 +5,12 @@
       "name" : "Default",
       "workspaces" : [
         {
-          "appToFocus" : {
-            "bundleIdentifier" : "com.tidal.desktop",
-            "iconPath" : "/Applications/TIDAL.app/Contents/Resources/icon.icns",
-            "name" : "TIDAL"
-          },
           "apps" : [
+            {
+              "bundleIdentifier" : "com.roon.Roon",
+              "iconPath" : "/Applications/Roon.app/Contents/Resources/AppIcon.icns",
+              "name" : "Roon"
+            },
             {
               "bundleIdentifier" : "com.tidal.desktop",
               "iconPath" : "/Applications/TIDAL.app/Contents/Resources/icon.icns",
@@ -19,7 +19,7 @@
           ],
           "display" : "LG HDR WQHD",
           "id" : "D4AF0111-8CCA-4832-8255-7F0CCCF01456",
-          "name" : "Tidal",
+          "name" : "Music",
           "openAppsOnActivation" : false,
           "shortcut" : "opt+1",
           "symbolIconName" : "music.note"
@@ -58,26 +58,6 @@
           "openAppsOnActivation" : false,
           "shortcut" : "opt+3",
           "symbolIconName" : "apple.terminal"
-        },
-        {
-          "appToFocus" : {
-            "bundleIdentifier" : "com.tinyspeck.slackmacgap",
-            "iconPath" : "/Applications/Slack.app/Contents/Resources/electron.icns",
-            "name" : "Slack"
-          },
-          "apps" : [
-            {
-              "bundleIdentifier" : "com.tinyspeck.slackmacgap",
-              "iconPath" : "/Applications/Slack.app/Contents/Resources/electron.icns",
-              "name" : "Slack"
-            }
-          ],
-          "display" : "LG HDR WQHD",
-          "id" : "BD0D6235-C66D-48AF-8A24-69B266A4F2F6",
-          "name" : "Slack",
-          "openAppsOnActivation" : false,
-          "shortcut" : "opt+4",
-          "symbolIconName" : "message.badge.waveform"
         }
       ]
     }
