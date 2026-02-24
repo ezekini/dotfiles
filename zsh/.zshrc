@@ -1,5 +1,3 @@
-. $HOMEBREW_PREFIX/etc/profile.d/z.sh
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
@@ -36,3 +34,10 @@ alias code="unset VSCODE_IPC_HOOK_CLI; code"
 alias ls="eza -1 -l --icons --hyperlink" # Alias para eza 1 liner and longC 
 #alias lc='colorls -lA --sd'
 export EDITOR="micro"
+
+# Initialize Zsh completions
+autoload -Uz compinit
+compinit
+
+# Initialize zoxide
+eval "$(zoxide init zsh)"

@@ -10,7 +10,16 @@
               "bundleIdentifier" : "com.roon.Roon",
               "iconPath" : "/Applications/Roon.app/Contents/Resources/AppIcon.icns",
               "name" : "Roon"
-            },
+            }
+          ],
+          "display" : "LG HDR WQHD",
+          "id" : "86B3F0C1-62B9-401A-9B15-BFFBDB2826F4",
+          "name" : "Roon",
+          "openAppsOnActivation" : false,
+          "symbolIconName" : "music.quarternote.3"
+        },
+        {
+          "apps" : [
             {
               "bundleIdentifier" : "com.tidal.desktop",
               "iconPath" : "/Applications/TIDAL.app/Contents/Resources/icon.icns",
@@ -19,7 +28,7 @@
           ],
           "display" : "LG HDR WQHD",
           "id" : "D4AF0111-8CCA-4832-8255-7F0CCCF01456",
-          "name" : "Music",
+          "name" : "Tidal",
           "openAppsOnActivation" : false,
           "shortcut" : "opt+1",
           "symbolIconName" : "music.note"
@@ -43,6 +52,39 @@
           "openAppsOnActivation" : false,
           "shortcut" : "opt+2",
           "symbolIconName" : "house"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "md.obsidian",
+              "iconPath" : "/Applications/Obsidian.app/Contents/Resources/icon.icns",
+              "name" : "Obsidian"
+            }
+          ],
+          "display" : "LG HDR WQHD",
+          "id" : "1C717D4C-6117-47A9-9D81-88EEE64D5AB6",
+          "name" : "Obsidian",
+          "openAppsOnActivation" : false,
+          "symbolIconName" : "pencil.and.scribble"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.tdesktop.Telegram",
+              "iconPath" : "/Applications/Telegram Desktop.app/Contents/Resources/AppIcon.icns",
+              "name" : "Telegram"
+            },
+            {
+              "bundleIdentifier" : "net.whatsapp.WhatsApp",
+              "iconPath" : "/Applications/WhatsApp.app/Contents/Resources/AppIconCatalystRelease.icns",
+              "name" : "‎WhatsApp"
+            }
+          ],
+          "display" : "LG HDR WQHD",
+          "id" : "3AFE816C-2ED3-4FAE-8178-B3E6C64B3412",
+          "name" : "Coms",
+          "openAppsOnActivation" : false,
+          "symbolIconName" : "keyboard"
         },
         {
           "apps" : [
