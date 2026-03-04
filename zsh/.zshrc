@@ -20,8 +20,7 @@ fi
 
 #mamba activate ml
 
-
-
+alias home='cd /Volumes/stuff/ELECE'
 alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
 alias ..='cd ../'                           # Go back 1 directory level
 alias ...='cd ../../'                       # Go back 2 directory levels
@@ -41,3 +40,4 @@ compinit
 
 # Initialize zoxide
 eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"

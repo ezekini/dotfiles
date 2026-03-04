@@ -56,20 +56,6 @@
         {
           "apps" : [
             {
-              "bundleIdentifier" : "md.obsidian",
-              "iconPath" : "/Applications/Obsidian.app/Contents/Resources/icon.icns",
-              "name" : "Obsidian"
-            }
-          ],
-          "display" : "LG HDR WQHD",
-          "id" : "1C717D4C-6117-47A9-9D81-88EEE64D5AB6",
-          "name" : "Obsidian",
-          "openAppsOnActivation" : false,
-          "symbolIconName" : "pencil.and.scribble"
-        },
-        {
-          "apps" : [
-            {
               "bundleIdentifier" : "com.tdesktop.Telegram",
               "iconPath" : "/Applications/Telegram Desktop.app/Contents/Resources/AppIcon.icns",
               "name" : "Telegram"
@@ -100,6 +86,20 @@
           "openAppsOnActivation" : false,
           "shortcut" : "opt+3",
           "symbolIconName" : "apple.terminal"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "md.obsidian",
+              "iconPath" : "/Applications/Obsidian.app/Contents/Resources/icon.icns",
+              "name" : "Obsidian"
+            }
+          ],
+          "display" : "LG HDR WQHD",
+          "id" : "1C717D4C-6117-47A9-9D81-88EEE64D5AB6",
+          "name" : "Obsidian",
+          "openAppsOnActivation" : false,
+          "symbolIconName" : "pencil.and.scribble"
         }
       ]
     }
