@@ -30,9 +30,11 @@ alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
 alias c='clear'
 alias code="unset VSCODE_IPC_HOOK_CLI; code"
-alias ls="eza -1 -l --icons --hyperlink" # Alias para eza 1 liner and longC 
+alias ls="eza -1 -l --icons --group-directories-first --hyperlink" # Alias para eza 1 liner and long
+alias alias ze='zellij attach estandar'
 #alias lc='colorls -lA --sd'
 export EDITOR="micro"
+
 
 # Initialize Zsh completions
 autoload -Uz compinit
@@ -40,4 +42,15 @@ compinit
 
 # Initialize zoxide
 eval "$(zoxide init zsh)"
+
 eval "$(starship init zsh)"
+
+# Set up fzf key bindings and fuzzy completion 
+source <(fzf --zsh)
+
+
+# Equivalent of setting DISABLE_AUTOUPDATER, DISABLE_FEEDBACK_COMMAND, DISABLE_ERROR_REPORTING, and DISABLE_TELEMETRY
+export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=true
+
+
+export PATH="$HOME/.local/bin:$PATH"

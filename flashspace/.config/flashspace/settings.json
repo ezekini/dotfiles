@@ -1,11 +1,15 @@
 {
   "activeWorkspaceOnFocusChange" : true,
   "alternativeDisplays" : "S22F350=LG HDR WQHD;",
-  "assignFocusedApp" : "ctrl+shift+a",
+  "autoAssignAlreadyAssignedApps" : false,
+  "autoAssignAppsToWorkspaces" : false,
   "centerCursorOnFocusChange" : false,
   "centerCursorOnWorkspaceChange" : false,
   "changeWorkspaceOnAppAssign" : false,
   "checkForUpdatesAutomatically" : true,
+  "cornerHiddenApps" : [
+
+  ],
   "displayMode" : "static",
   "enableFocusManagement" : false,
   "enableIntegrations" : false,
@@ -14,6 +18,7 @@
   "enableSpaceControlAnimations" : true,
   "enableSpaceControlTilesAnimations" : true,
   "enableSwipeGestures" : true,
+  "enableWorkspaceSwitcher" : true,
   "enableWorkspaceTransitions" : false,
   "floatTheFocusedApp" : "cmd+shift+f",
   "floatingApps" : [
@@ -53,7 +58,9 @@
   "showFloatingNotifications" : true,
   "showMenuBarIcon" : true,
   "showMenuBarTitle" : true,
+  "showRecentWorkspaceWhenActivatedTwice" : false,
   "showSpaceControl" : "cmd+shift+p",
+  "showWorkspaceSwitcher" : "opt+tab",
   "skipEmptyWorkspacesOnSwitch" : true,
   "spaceControlCurrentDisplayWorkspaces" : false,
   "spaceControlHideEmptyWorkspaces" : false,
@@ -72,6 +79,10 @@
   "switchToPreviousWorkspace" : "ctrl+a",
   "switchWorkspaceOnCursorScreen" : false,
   "switchWorkspaceWhenPipCloses" : false,
+  "workspaceSwitcherCurrentDisplayWorkspaces" : true,
+  "workspaceSwitcherShowScreenshots" : true,
+  "workspaceSwitcherSortByLastActivation" : false,
+  "workspaceSwitcherVisibleWorkspaces" : 6,
   "workspaceTransitionDimming" : 0.2,
   "workspaceTransitionDuration" : 0.3
 }
