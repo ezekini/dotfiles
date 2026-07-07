@@ -18,9 +18,8 @@
   "enableSpaceControlAnimations" : true,
   "enableSpaceControlTilesAnimations" : true,
   "enableSwipeGestures" : true,
-  "enableWorkspaceSwitcher" : true,
+  "enableWorkspaceSwitcher" : false,
   "enableWorkspaceTransitions" : false,
-  "floatTheFocusedApp" : "cmd+shift+f",
   "floatingApps" : [
     {
       "bundleIdentifier" : "com.apple.finder",
@@ -44,7 +43,9 @@
   "loopWorkspaces" : true,
   "loopWorkspacesOnAllDisplays" : false,
   "menuBarDisplayAliases" : "",
+  "menuBarTitleScriptPath" : "",
   "menuBarTitleTemplate" : "$WORKSPACE-$WORKSPACE_NUMBER",
+  "menuBarTitleUseScript" : false,
   "pipApps" : [
 
   ],
@@ -60,7 +61,7 @@
   "showMenuBarTitle" : true,
   "showRecentWorkspaceWhenActivatedTwice" : false,
   "showSpaceControl" : "cmd+shift+p",
-  "showWorkspaceSwitcher" : "opt+tab",
+  "showWorkspaceSwitcher" : "ctrl+tab",
   "skipEmptyWorkspacesOnSwitch" : true,
   "spaceControlCurrentDisplayWorkspaces" : false,
   "spaceControlHideEmptyWorkspaces" : false,

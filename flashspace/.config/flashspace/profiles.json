@@ -30,7 +30,6 @@
           "id" : "D4AF0111-8CCA-4832-8255-7F0CCCF01456",
           "name" : "Tidal",
           "openAppsOnActivation" : false,
-          "shortcut" : "opt+1",
           "symbolIconName" : "music.note"
         },
         {
@@ -50,7 +49,6 @@
           "id" : "3F9C4430-4C77-4139-A7E5-73328682A1D1",
           "name" : "Main",
           "openAppsOnActivation" : false,
-          "shortcut" : "opt+2",
           "symbolIconName" : "house"
         },
         {
@@ -84,7 +82,6 @@
           "id" : "2AD5FD25-7404-4987-BBBE-37E2007B6230",
           "name" : "Code",
           "openAppsOnActivation" : false,
-          "shortcut" : "opt+3",
           "symbolIconName" : "apple.terminal"
         },
         {
