@@ -1,0 +1,138 @@
+schema_version = 3
+selected_device = "direct:046d:b034:serial:2415lz52xms8"
+
+[app_settings]
+launch_at_login = true
+check_for_updates = true
+auto_install_updates = true
+update_prompt_seen = true
+show_in_menu_bar = true
+auto_download_assets = true
+thumbwheel_sensitivity = 100
+appearance = "system"
+
+[devices.1b034]
+gesture_owner = "GestureButton"
+
+[devices.1b034.bindings]
+Back = "VolumeDown"
+Forward = "VolumeUp"
+DpiToggle = "MuteVolume"
+ThumbwheelScrollUp = "HorizontalScrollRight"
+
+[devices.1b034.bindings.MiddleClick]
+Up = "MissionControl"
+Down = "ShowDesktop"
+Left = "PrevTab"
+Right = "NextTab"
+Click = "LaunchpadShow"
+
+[devices.1b034.bindings.GestureButton]
+Up = "MissionControl"
+Down = "ShowDesktop"
+Left = "PrevTab"
+Right = "NextTab"
+Click = "ShowDesktop"
+
+[devices."direct:046d:b020:unit:2ecb2697"]
+gesture_owner = "Off"
+dpi = 1300
+
+[devices."direct:046d:b020:unit:2ecb2697".identity]
+display_name = "MX Vertical"
+codename = "MX Vertical"
+kind = "mouse"
+
+[devices."direct:046d:b020:unit:2ecb2697".identity.model_info]
+entity_count = 3
+unit_id = [
+    0,
+    0,
+    0,
+    0,
+]
+model_ids = [
+    45088,
+    16507,
+    49290,
+]
+extended_model_id = 0
+
+[devices."direct:046d:b020:unit:2ecb2697".identity.model_info.transports]
+usb = true
+equad = true
+btle = true
+bluetooth = false
+
+[devices."direct:046d:b020:unit:2ecb2697".identity.capabilities]
+buttons = true
+pointer = true
+lighting = false
+scroll_inversion = false
+
+[devices."direct:046d:b020:unit:2ecb2697".bindings]
+Back = "VolumeDown"
+Forward = "VolumeUp"
+
+[devices."direct:046d:b020:unit:2ecb2697".bindings.MiddleClick]
+Up = "MissionControl"
+Down = "ShowDesktop"
+Left = "PrevTab"
+Right = "NextTab"
+Click = "AppExpose"
+
+[devices."direct:046d:b034:serial:2415lz52xms8"]
+gesture_owner = "GestureButton"
+dpi_presets = [1850]
+dpi = 1450
+
+[devices."direct:046d:b034:serial:2415lz52xms8".identity]
+display_name = "MX Master 3S"
+codename = "MX Master 3S"
+kind = "mouse"
+
+[devices."direct:046d:b034:serial:2415lz52xms8".identity.model_info]
+entity_count = 3
+unit_id = [
+    0,
+    0,
+    0,
+    0,
+]
+model_ids = [
+    45108,
+    0,
+    0,
+]
+extended_model_id = 1
+
+[devices."direct:046d:b034:serial:2415lz52xms8".identity.model_info.transports]
+usb = false
+equad = false
+btle = true
+bluetooth = false
+
+[devices."direct:046d:b034:serial:2415lz52xms8".identity.capabilities]
+buttons = true
+pointer = true
+lighting = false
+scroll_inversion = true
+
+[devices."direct:046d:b034:serial:2415lz52xms8".bindings]
+MiddleClick = "ShowDesktop"
+Back = "VolumeDown"
+Forward = "VolumeUp"
+DpiToggle = "MuteVolume"
+ThumbwheelScrollUp = "HorizontalScrollRight"
+
+[devices."direct:046d:b034:serial:2415lz52xms8".bindings.GestureButton]
+Up = "MissionControl"
+Down = "ShowDesktop"
+Left = "PrevTab"
+Right = "NextTab"
+Click = "MissionControl"
+
+[devices."direct:046d:b034:serial:2415lz52xms8".smartshift]
+mode = "ratchet"
+auto_disengage = 17
+tunable_torque = 0
