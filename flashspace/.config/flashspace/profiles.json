@@ -5,6 +5,11 @@
       "name" : "Default",
       "workspaces" : [
         {
+          "appToFocus" : {
+            "bundleIdentifier" : "com.roon.Roon",
+            "iconPath" : "/Applications/Roon.app/Contents/Resources/AppIcon.icns",
+            "name" : "Roon"
+          },
           "apps" : [
             {
               "bundleIdentifier" : "com.roon.Roon",
@@ -19,6 +24,11 @@
           "symbolIconName" : "music.quarternote.3"
         },
         {
+          "appToFocus" : {
+            "bundleIdentifier" : "com.tidal.desktop",
+            "iconPath" : "/Applications/TIDAL.app/Contents/Resources/icon.icns",
+            "name" : "TIDAL"
+          },
           "apps" : [
             {
               "bundleIdentifier" : "com.tidal.desktop",
@@ -33,11 +43,6 @@
           "symbolIconName" : "music.note"
         },
         {
-          "appToFocus" : {
-            "bundleIdentifier" : "company.thebrowser.Browser",
-            "iconPath" : "/Applications/Arc.app/Contents/Resources/AppIcon.icns",
-            "name" : "Arc"
-          },
           "apps" : [
             {
               "bundleIdentifier" : "company.thebrowser.Browser",
@@ -71,6 +76,11 @@
           "symbolIconName" : "keyboard"
         },
         {
+          "appToFocus" : {
+            "bundleIdentifier" : "com.microsoft.VSCode",
+            "iconPath" : "/Applications/Visual Studio Code.app/Contents/Resources/Code.icns",
+            "name" : "Code"
+          },
           "apps" : [
             {
               "bundleIdentifier" : "com.microsoft.VSCode",
@@ -85,6 +95,11 @@
           "symbolIconName" : "apple.terminal"
         },
         {
+          "appToFocus" : {
+            "bundleIdentifier" : "md.obsidian",
+            "iconPath" : "/Applications/Obsidian.app/Contents/Resources/icon.icns",
+            "name" : "Obsidian"
+          },
           "apps" : [
             {
               "bundleIdentifier" : "md.obsidian",
